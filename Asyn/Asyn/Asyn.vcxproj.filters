@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Asyn">
+      <UniqueIdentifier>{7d40290b-e93b-48ce-850d-cbb38188e634}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalSection.h">
+      <Filter>Asyn</Filter>
+    </ClInclude>
+    <ClInclude Include="IJob.h">
+      <Filter>Asyn</Filter>
+    </ClInclude>
+    <ClInclude Include="IJobScheduler.h">
+      <Filter>Asyn</Filter>
+    </ClInclude>
+    <ClInclude Include="IJobSchedulerTimer.h">
+      <Filter>Asyn</Filter>
+    </ClInclude>
+    <ClInclude Include="IJobState.h">
+      <Filter>Asyn</Filter>
+    </ClInclude>
+    <ClInclude Include="JobBase.h">
+      <Filter>Asyn</Filter>
+    </ClInclude>
+    <ClInclude Include="JobSchedulerBase.h">
+      <Filter>Asyn</Filter>
+    </ClInclude>
+    <ClInclude Include="JobSchedulerTimerBase.h">
+      <Filter>Asyn</Filter>
+    </ClInclude>
+    <ClInclude Include="JobStateBase.h">
+      <Filter>Asyn</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitableEvent.h">
+      <Filter>Asyn</Filter>
+    </ClInclude>
+    <ClInclude Include="AsynCall.h">
+      <Filter>Asyn</Filter>
+    </ClInclude>
+    <ClInclude Include="AsynCall4W.h">
+      <Filter>Asyn</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowEvent.h">
+      <Filter>Asyn</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSimple.h">
+      <Filter>Asyn</Filter>
+    </ClInclude>
+    <ClInclude Include="AsynCallEx.h">
+      <Filter>Asyn</Filter>
+    </ClInclude>
+    <ClInclude Include="JobSchedulerPool.h">
+      <Filter>Asyn</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniDump.h">
+      <Filter>Asyn</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CriticalSection.cpp">
+      <Filter>Asyn</Filter>
+    </ClCompile>
+    <ClCompile Include="JobSchedulerBase.cpp">
+      <Filter>Asyn</Filter>
+    </ClCompile>
+    <ClCompile Include="JobStateBase.cpp">
+      <Filter>Asyn</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitableEvent.cpp">
+      <Filter>Asyn</Filter>
+    </ClCompile>
+    <ClCompile Include="Asyn.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JobSchedulerTimerBase.cpp">
+      <Filter>Asyn</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniDump.cpp">
+      <Filter>Asyn</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
