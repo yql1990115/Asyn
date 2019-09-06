@@ -13,8 +13,8 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Public">
-      <UniqueIdentifier>{40ada46c-328d-4c47-a940-d2d79aa6b5fb}</UniqueIdentifier>
+    <Filter Include="Asyn">
+      <UniqueIdentifier>{37d4a1d4-f503-4be5-bffb-4d556177f832}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -27,52 +27,46 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="qlScheduler.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="..\Asyn\qlAsynCall.h">
+      <Filter>Asyn</Filter>
     </ClInclude>
-    <ClInclude Include="qlSchedulerTimer.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="..\Asyn\qlAsynCallEx.h">
+      <Filter>Asyn</Filter>
     </ClInclude>
-    <ClInclude Include="qlThreadEngine.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="..\Asyn\qlAsynHelper.h">
+      <Filter>Asyn</Filter>
     </ClInclude>
-    <ClInclude Include="qlWindowEngine.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="..\Asyn\qlAsynInterface.h">
+      <Filter>Asyn</Filter>
     </ClInclude>
-    <ClInclude Include="qlAsynInterface.h">
-      <Filter>Public</Filter>
+    <ClInclude Include="..\Asyn\qlScheduler.h">
+      <Filter>Asyn</Filter>
     </ClInclude>
-    <ClInclude Include="qlAsyn.h">
-      <Filter>Public</Filter>
+    <ClInclude Include="..\Asyn\qlSchedulerTimer.h">
+      <Filter>Asyn</Filter>
     </ClInclude>
-    <ClInclude Include="qlAsynCall.h">
-      <Filter>Public</Filter>
+    <ClInclude Include="..\Asyn\qlThreadEngine.h">
+      <Filter>Asyn</Filter>
     </ClInclude>
-    <ClInclude Include="qlAsynHelper.h">
-      <Filter>Public</Filter>
-    </ClInclude>
-    <ClInclude Include="qlAsynCallEx.h">
-      <Filter>Public</Filter>
+    <ClInclude Include="..\Asyn\qlWindowEngine.h">
+      <Filter>Asyn</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="dllmain.cpp">
+    <ClCompile Include="UnitTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="qlScheduler.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="..\Asyn\qlAsynHelper.cpp">
+      <Filter>Asyn</Filter>
     </ClCompile>
-    <ClCompile Include="qlSchedulerTimer.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="..\Asyn\qlScheduler.cpp">
+      <Filter>Asyn</Filter>
     </ClCompile>
-    <ClCompile Include="qlAsyn.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="qlAsynHelper.cpp">
-      <Filter>Public</Filter>
+    <ClCompile Include="..\Asyn\qlSchedulerTimer.cpp">
+      <Filter>Asyn</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
